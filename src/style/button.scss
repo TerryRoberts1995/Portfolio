@@ -1,3 +1,7 @@
 .btn {
   @include base-btn();
 }
+
+.login-btn {
+  background-color: #966BC7;
+}

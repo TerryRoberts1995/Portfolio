@@ -3,6 +3,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: calc(100vh - 84px);
+  color: #DFD2EE;
+  text-shadow: 1px 1px 5px black;
 
   .right-column {
     display: flex;
@@ -21,8 +23,11 @@
         align-items: center;
 
         .icon {
+          padding: 8px;
+          border-radius: 3px;
           font-size: 2em;
           color: $teal;
+          box-shadow: 1px 1px 5px black;
         }
 
         .text {
@@ -33,4 +38,9 @@
       }
     }
   }
+}
+
+.contact-pic {
+  border-right: 1px solid #0A9DFF;
+  border-right-width: thin;
 }

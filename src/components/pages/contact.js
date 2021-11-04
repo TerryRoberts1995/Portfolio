@@ -1,12 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import contactPagePicture from "../../../static/assets/images/auth/login.jpg";
+import contactPagePicture from "../../../static/assets/images/bio/PC.jpg";
 
 export default function() {
   return (
     <div className="content-page-wrapper">
       <div
-        className="left-column"
+        className="left-column contact-pic"
         style={{
           background: "url(" + contactPagePicture + ") no-repeat",
           backgroundSize: "cover",
@@ -20,7 +20,7 @@ export default function() {
               <FontAwesomeIcon icon="phone" />
             </div>
 
-            <div className="text">555-555-5555</div>
+            <div className="text">210-290-6097</div>
           </div>
 
           <div className="bullet-point-group">
@@ -28,7 +28,7 @@ export default function() {
               <FontAwesomeIcon icon="envelope" />
             </div>
 
-            <div className="text">jordan@example.com</div>
+            <div className="text">troberts@bottega.edu</div>
           </div>
 
           <div className="bullet-point-group">
@@ -36,7 +36,7 @@ export default function() {
               <FontAwesomeIcon icon="map-marked-alt" />
             </div>
 
-            <div className="text">Lehi, UT</div>
+            <div className="text">San Antonio, Texas</div>
           </div>
         </div>
       </div>

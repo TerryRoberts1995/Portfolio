@@ -29,20 +29,22 @@
     font-size: 0.9rem;
 
     a {
-      color: $grey;
+      color: #DFD2EE;
       text-decoration: none;
+      transition: 0.5s ease-in-out;
       &:hover {
-        color: black;
+        color: #966BC7;
+        text-shadow: 1px 1px 5px black;
       }
     }
 
     &:hover {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #966BC7;
     }
 
     .nav-link-active {
-      border-bottom: 1px solid black;
-      color: black;
+      color: #E3A0D3;
+      text-shadow: 1px 1px 4px black;
     }
   }
 }

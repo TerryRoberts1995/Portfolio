@@ -17,7 +17,7 @@ export default class PortfolioDetail extends Component {
   getPortfolioItem() {
     axios
       .get(
-        `https://jordan.devcamp.space/portfolio/portfolio_items/${
+        `https://toasty.devcamp.space/portfolio/portfolio_items/${
           this.props.match.params.slug
         }`,
         { withCredentials: true }
@@ -44,7 +44,7 @@ export default class PortfolioDetail extends Component {
     } = this.state.portfolioItem;
 
     const bannerStyles = {
-      backgroundImage: "url(" + banner_image_url + ")",
+      backgroundImage: "url(" + thumb_image_url + ")",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center center"
